@@ -1,0 +1,78 @@
+Tener instalado python
+
+Pasos para crear un entorno virtual en Visual Code
+
+1) Crear una carpeta para la asignatura
+
+En el terminal o en el browser
+
+mkdir practicasMHPS
+
+2) Teclear el comando que permite crear el enviroment
+
+python -m venv .\practicasMHPS\
+
+ó 
+
+py -m venv .\practicasMHPS\
+
+Esto hace que se creen las carpeta internas de python
+De puede ver las carpetas Include, Lib, Script
+
+3) Activar el enviroment. 
+
+Situarse en la carpeta Script 
+
+cd .\Scripts\
+
+y teclear
+
+.\activate
+
+Se vuelve a la carpeta miproyecto y en él se cargan los archivos python de la práctica (se puede crear una carpeta para ello "Practica1")
+
+Instalar paquete python 
+
+pip install matplotlib
+
+
+
+
+
+---Si da problemas al ejecutar .\activate
+Concretamente el problema:
+
+.\activate : No se puede cargar el archivo C:\Users\Universidad\OneDrive - Universidad de Oviedo\ODMaria\Trabajando2023-2024\AsignaturaOpt_MHPS\MasterialMaria\00. 
+TemaIntroducción\Videos&Diapo\Practicas\practicasMHPS\Scripts\Activate.ps1 porque la ejecución de scripts está deshabilitada en este sistema. Para obtener más información, consulta el tema about_Execution_Policies en         
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+En línea: 1 Carácter: 1
++ .\activate
++ ~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+	
+Es porque windows por defecto tiene restringida la ejecución de scripts.
+
+Para cambiar esta política
+
+Ir a Windows, buscar Windows PowerShell, con el botón derecho ejecutar como administrador
+
+Se abre la ventana del PowerShell 
+
+Teclear comando
+
+Set-ExecutionPolicy Unrestricted
+
+Y pulsar S
+
+Con esto queda activada la ejecución de scripts en windows
+
+Una vez activado el enviroment se puede revertir para dejar de permitirlo haciendo lo mismo y poniendo n
+
+
+
+
+
+
+
+

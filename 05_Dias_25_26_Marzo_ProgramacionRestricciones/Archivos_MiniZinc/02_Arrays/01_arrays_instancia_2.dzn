@@ -1,0 +1,4 @@
+% 01_arrays_instancia_2.dzn
+
+n = 10;  % Tendremos 10 elementos
+a = [9, 7, 3, 6, 9, 1, 10, 8, 2, 11]; % Datos para el array a

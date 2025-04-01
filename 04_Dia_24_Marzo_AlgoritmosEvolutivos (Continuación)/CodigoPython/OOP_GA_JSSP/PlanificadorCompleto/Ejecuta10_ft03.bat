@@ -1,0 +1,10 @@
+python "Scheduler.py" .\Instances\ft03.txt RR MK  >> .\Res\Results_ft03_10eje.txt
+python "Scheduler.py" .\Instances\ft03.txt RR MK  >> .\Res\Results_ft03_10eje.txt
+python "Scheduler.py" .\Instances\ft03.txt RR MK  >> .\Res\Results_ft03_10eje.txt
+python "Scheduler.py" .\Instances\ft03.txt RR MK  >> .\Res\Results_ft03_10eje.txt
+python "Scheduler.py" .\Instances\ft03.txt RR MK  >> .\Res\Results_ft03_10eje.txt
+python "Scheduler.py" .\Instances\ft03.txt RR MK  >> .\Res\Results_ft03_10eje.txt
+python "Scheduler.py" .\Instances\ft03.txt RR MK  >> .\Res\Results_ft03_10eje.txt
+python "Scheduler.py" .\Instances\ft03.txt RR MK  >> .\Res\Results_ft03_10eje.txt
+python "Scheduler.py" .\Instances\ft03.txt RR MK  >> .\Res\Results_ft03_10eje.txt
+python "Scheduler.py" .\Instances\ft03.txt RR MK  >> .\Res\Results_ft03_10eje.txt

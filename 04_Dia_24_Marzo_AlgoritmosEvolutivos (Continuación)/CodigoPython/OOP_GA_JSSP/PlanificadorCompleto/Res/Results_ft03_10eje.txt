@@ -1,0 +1,10 @@
+ft03_RR_MK  coste  7 11
+ft03_RR_MK  coste  7 7
+ft03_RR_MK  coste  13 11
+ft03_RR_MK  coste  7 7
+ft03_RR_MK  coste  7 7
+[Errno 13] Permission denied: 'C:\\Users\\Maria\\OneDrive\\sierramaria\\OneDrive - Universidad de Oviedo\\ODMaria\\Trabajando2023-2024\\AsignaturaOpt_MHPS\\MasterialMaria\\00. TemaIntroducción\\Videos&Diapo\\Practicas\\MHPS\\practicasMHPS\\PlanificadorCompleto\\GanttImages\\ft03_RR_MK_gyt_coste_7.jpg'
+ft03_RR_MK  coste  7 11
+ft03_RR_MK  coste  13 11
+ft03_RR_MK  coste  11 11
+ft03_RR_MK  coste  11 7

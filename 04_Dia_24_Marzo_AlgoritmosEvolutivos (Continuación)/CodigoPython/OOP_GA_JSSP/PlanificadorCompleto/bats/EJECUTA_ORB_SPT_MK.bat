@@ -1,0 +1,10 @@
+python "schedule_basico_G&T_V15.py" .\Inst\orb01.txt SPT MK  >> .\Res\sal_orb_SPT_MK.txt
+python "schedule_basico_G&T_V15.py" .\Inst\orb02.txt SPT MK  >> .\Res\sal_orb_SPT_MK.txt
+python "schedule_basico_G&T_V15.py" .\Inst\orb03.txt SPT MK  >> .\Res\sal_orb_SPT_MK.txt
+python "schedule_basico_G&T_V15.py" .\Inst\orb04.txt SPT MK  >> .\Res\sal_orb_SPT_MK.txt
+python "schedule_basico_G&T_V15.py" .\Inst\orb05.txt SPT MK  >> .\Res\sal_orb_SPT_MK.txt
+python "schedule_basico_G&T_V15.py" .\Inst\orb06.txt SPT MK  >> .\Res\sal_orb_SPT_MK.txt
+python "schedule_basico_G&T_V15.py" .\Inst\orb07.txt SPT MK  >> .\Res\sal_orb_SPT_MK.txt
+python "schedule_basico_G&T_V15.py" .\Inst\orb08.txt SPT MK  >> .\Res\sal_orb_SPT_MK.txt
+python "schedule_basico_G&T_V15.py" .\Inst\orb09.txt SPT MK >> .\Res\sal_orb_SPT_MK.txt
+python "schedule_basico_G&T_V15.py" .\Inst\orb10.txt SPT MK  >> .\Res\sal_orb_SPT_MK.txt

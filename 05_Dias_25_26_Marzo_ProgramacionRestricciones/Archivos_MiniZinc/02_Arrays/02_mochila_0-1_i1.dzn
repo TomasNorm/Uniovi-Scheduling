@@ -1,0 +1,6 @@
+% 02_mochila_0-1_i1.dzn
+
+n = 4;  % número de objetos
+W = 20; % capacidad máxima de la mochila
+peso = [8, 4, 10, 7]; % peso de los objetos
+valor = [10, 8, 12, 9]; % valor de los objetos

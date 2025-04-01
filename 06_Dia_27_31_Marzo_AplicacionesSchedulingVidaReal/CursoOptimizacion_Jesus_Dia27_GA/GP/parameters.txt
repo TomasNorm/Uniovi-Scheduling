@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ECF>
+	<Algorithm>
+		<ParentChildrenTournament>
+		</ParentChildrenTournament>
+	</Algorithm>
+
+	<Genotype>
+		<RampedTree>
+			<Entry key="initmaxdepth">8</Entry>
+			<Entry key="initmindepth">1</Entry>
+			<Entry key="maxdepth">8</Entry>
+			<Entry key="mindepth">1</Entry>
+			<Entry key="functionset">+ - * / sin cos min max neg exp ln pow2 sqrt min0 max0 </Entry>
+			<Entry key="terminalset">wj DWNP Wj WjAllPack LB dj Slj </Entry> 
+			<!-- C wj F DW DWNP Wj Rj I Nj N Freej WjAllPack LB T TT TL TTi TLi dj Slj Aj Ai Qualityi  -->
+		</RampedTree>
+	</Genotype>
+ 
+	<Registry>
+		<Entry key="randomizer.seed">0</Entry> 
+		<Entry key="population.size">200</Entry>
+		<Entry key="population.demes">1</Entry>
+
+		<Entry key="term.maxtime">600</Entry>			<!-- max number of seconds to run (default: none) -->
+		<Entry key="mutation.indprob">0.02</Entry>		<!-- individual mutation probability (unless the algorithm overrides it) (default: 0.3) -->
+
+		<Entry key="log.level">3</Entry>
+		<Entry key="log.frequency">1</Entry>
+		<Entry key="log.filename">log_output.txt</Entry>
+		<Entry key="milestone.filename">milestone_output.txt</Entry>
+		<Entry key="milestone.interval">1</Entry>
+
+		<Entry key="solver.criterion">bins</Entry>				<!-- Optimization criteria -->
+		<Entry key="solver.firstBinTime">1</Entry>									<!-- Time set to the first bin (default:1) -->
+		<Entry key="solver.method">cut-by-cut_serial_first-fit</Entry>						<!-- Name of the solver to use -->
+
+		<Entry key="instances.train-set-dir">./other/</Entry>
+	</Registry>
+</ECF>
